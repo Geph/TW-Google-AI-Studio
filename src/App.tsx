@@ -50,7 +50,7 @@ export default function App() {
       {/* (1) HERO SECTION */}
       <section className="relative min-h-[80vh] flex flex-col items-center justify-center bg-tw-black pt-20 pb-12 px-4">
         <div 
-          className="absolute inset-0 opacity-40 mix-blend-overlay"
+          className="absolute inset-0"
           style={{ 
             backgroundImage: `url('${base}tw-hero-bg.jpg')`,
             backgroundSize: 'cover',
@@ -62,17 +62,23 @@ export default function App() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="relative z-10 text-center"
+          className="relative z-10 text-center flex flex-col items-center"
         >
-          <h1 className="text-6xl md:text-8xl lg:text-9xl font-gothic text-tw-red mb-2 drop-shadow-[0_2px_10px_rgba(163,51,45,0.5)]">
+          <h1 className="sr-only">
             THE TERRIBLE WISE
           </h1>
-          <p className="text-xl md:text-2xl font-serif tracking-[0.3em] text-tw-tan opacity-80 uppercase">
+          <p className="sr-only">
             An Artist Collective
           </p>
+
+          <img 
+            src={`${base}tw-title.svg`} 
+            alt="The Terrible Wise" 
+            className="w-3/4 md:w-[75%] max-w-5xl h-auto mb-8 drop-shadow-[0_2px_10px_rgba(163,51,45,0.5)]"
+            referrerPolicy="no-referrer"
+          />
           
-          <div className="mt-12">
-            <div className="w-48 h-px bg-tw-red/50 mx-auto mb-4" />
+          <div className="mt-4">
             <div className="flex justify-center gap-8">
               <Instagram className="w-6 h-6 cursor-pointer hover:text-tw-red transition-colors" />
               <Mail className="w-6 h-6 cursor-pointer hover:text-tw-red transition-colors" />
@@ -80,12 +86,6 @@ export default function App() {
           </div>
         </motion.div>
       </section>
-
-      {/* BUFFER: Black to Red */}
-      <div 
-        className="torn-edge z-20"
-        style={{ backgroundImage: `url('${base}tw-black-red.jpg')` }}
-      />
 
       {/* (2) MISSION */}
       <section className="bg-tw-red py-24 px-6 md:px-12 lg:px-24">
