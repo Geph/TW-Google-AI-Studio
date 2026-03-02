@@ -74,7 +74,7 @@ export default function App() {
           <img 
             src={`${base}tw-title.svg`} 
             alt="The Terrible Wise" 
-            className="w-3/4 md:w-[75%] max-w-5xl h-auto mb-8 drop-shadow-[0_2px_10px_rgba(163,51,45,0.5)]"
+            className="w-[75vw] h-auto mb-8 drop-shadow-[0_2px_10px_rgba(163,51,45,0.5)]"
             referrerPolicy="no-referrer"
           />
           
