@@ -50,7 +50,7 @@ export default function App() {
         <div 
           className="absolute inset-0 opacity-40 mix-blend-overlay"
           style={{ 
-            backgroundImage: `url('/input_file_3.png')`,
+            backgroundImage: `url('/tw-hero-bg.jpg')`,
             backgroundSize: 'cover',
             backgroundPosition: 'center'
           }}
@@ -139,7 +139,7 @@ export default function App() {
       {/* BUFFER: Red to Tan (tw-red-cream) */}
       <div 
         className="torn-edge z-20"
-        style={{ backgroundImage: `url('/input_file_5.png')` }}
+        style={{ backgroundImage: `url('/tw-red-cream.jpg')` }}
       />
 
       {/* (3) ARTISTS */}
@@ -199,7 +199,7 @@ export default function App() {
       {/* BUFFER: Tan to Black (tw-cream-black) */}
       <div 
         className="torn-edge z-20"
-        style={{ backgroundImage: `url('/input_file_7.png')` }}
+        style={{ backgroundImage: `url('/tw-cream-black.jpg')` }}
       />
 
       {/* (4) COMMUNITY CALENDAR */}
@@ -255,7 +255,7 @@ export default function App() {
       {/* BUFFER: Black to Red (tw-black-red) */}
       <div 
         className="torn-edge z-20"
-        style={{ backgroundImage: `url('/input_file_4.png')` }}
+        style={{ backgroundImage: `url('/tw-black-red.jpg')` }}
       />
 
       {/* (5) STAY IN THE LOOP */}
@@ -267,7 +267,7 @@ export default function App() {
             className="flex justify-center"
           >
             <img 
-              src="/input_file_1.png" 
+              src="/jumping-chimera.jpg" 
               alt="Jumping Chimera" 
               className="w-full max-w-md drop-shadow-2xl"
               referrerPolicy="no-referrer"
@@ -299,7 +299,7 @@ export default function App() {
       {/* BUFFER: Red to Black */}
       <div 
         className="torn-edge z-20"
-        style={{ backgroundImage: `url('/input_file_6.png')` }}
+        style={{ backgroundImage: `url('/tw-red-black.jpg')` }}
       />
 
       {/* (6) FOOTER */}
@@ -322,7 +322,7 @@ export default function App() {
           <div className="flex justify-center md:justify-end items-center">
             <div className="w-48 h-48 relative group">
               <img 
-                src="/input_file_8.png" 
+                src="/logo.jpg" 
                 alt="TW Logo" 
                 className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-700"
                 referrerPolicy="no-referrer"
